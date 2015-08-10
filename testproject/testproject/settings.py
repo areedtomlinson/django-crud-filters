@@ -52,7 +52,7 @@ MIDDLEWARE_CLASSES = (
     'CRUDFilters.views.CRUDFilterModelViewSet',
 )
 
-ROOT_URLCONF = 'tests.urls'
+ROOT_URLCONF = 'CRUDFilters.tests.urls'
 
 TEMPLATES = [
     {
